@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Team</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* New styles for search bar */
+        .search-bar {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px; /* Adding some space between the title and search bar */
+        }
+
+        .search-bar .search {
+            display: flex;
+            align-items: center;
+            background-color: #ffffff;
+            border-radius: 20px;
+            padding: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .search-bar .search input[type="text"] {
+            width: 100%;
+            border: none;
+            padding: 10px;
+            font-size: 16px;
+            outline: none;
+        }
+
+        .search-bar .search i {
+            margin-right: 10px;
+            color: #999999;
+        }
+        
+        /* Styles for contact box */
+        .contact-box {
+            width: 100%;
+            background-color: #ffffff;
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .contact-box h2 {
+            margin-bottom: 10px;
+        }
+
+        .contact-box ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .contact-box li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Project Team</h1>
+        
+        <!-- New search bar section -->
+        <div class="search-bar">
+            <div class="search">
+                <i class="fa fa-search"></i>
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
+        
+        <!-- Contact box -->
+        <div class="contact-box">
+            <h2>Contact Information</h2>
+            <ul>
+                <li>John Doe - john@example.com</li>
+                <li>Alice Smith - alice@example.com</li>
+                <li>Bob Johnson - bob@example.com</li>
+                <li>Emily Brown - emily@example.com</li>
+            </ul>
+        </div>
+        
+        <!-- Team members list -->
+        <ul class="team-members">
+            <li class="member">John Doe - Project Manager</li>
+            <li class="member">Alice Smith - Lead Developer</li>
+            <li class="member">Bob Johnson - Designer</li>
+            <li class="member">Emily Brown - Marketing Specialist</li>
+            <!-- Add more team members as needed -->
+        </ul>
+    </div>
+</body>
+</html>
+

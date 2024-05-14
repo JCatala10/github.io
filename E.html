@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <section id="menu">
+        <div class="logo">
+            <h2>Software Builders Group</h2>
+        </div>
+
+        <div class="items">
+            <li><i class=""></i><a href="Start.html">Home</a></li>
+            <li><i class=""></i><a href="Project 1.html">Back to project</a></li>
+        </div>
+    </section>
+
+    <section id="interface">
+        <div class="navigation">
+            <div class="n1">
+                <div class="search">
+                    <i class="fa fa-search"></i>
+                    <input type="text" placeholder="search">
+                </div>
+            </div>
+            <div class="profile">
+                <i class="fa fa-bell"></i>
+                <img src="main-page/aa.png" alt="">
+            </div>
+        </div>
+
+        <h1><u>Expenses Tracker</u></h1>
+        <div class="container">
+            <h4>Project Balance</h4>
+            <h1 id="balance"></h1>
+            <div class="inc-exp-container">
+                <div>
+                    <h4>Income</h4>
+                    <p id="money-plus" class="money-plus">+DKK 0.00</p>
+                </div>
+                <div>
+                    <h4>Expense</h4>
+                    <p id="money-minus" class="money-minus">-DKK 0.00</p>
+                </div>
+            </div>
+
+            <h3>History</h3>
+            <ul id="list" class="list">
+                <!-- <li class="minus">
+                    Cash <span>-$400</span
+                    ><button class="delete-btn">x</button>
+                </li> -->
+            </ul>
+            <h3>Add New Transaction</h3>
+            <form id="form">
+                <div class="form-control">
+                    <label for="text">Text</label>
+                    <input type="text" id="text" placeholder="Enter Text...."/>
+                </div>
+                <div class="form-control">
+                    <label for="amount">Amount <br> ( In case of expense use -ve sign )</label>
+                    <input type="number" id="amount" placeholder="Enter amount..."> 
+                </div>
+                <button class="btn">Add transaction</button>
+            </form>
+        </div>
+        <!-- JavaScript Project  -->
+        <script src="script.js"></script>
+    </section>
+</body>
+</html>
